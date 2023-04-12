@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="css\js/student.js"></script>
+</head>
+<body onload="loaded()">
+    <div>
+        <input id="pName" placeholder="Student Name">  | 
+        <input id="plikeTopic" placeholder="like topic">  | 
+        <input id="pdislikeTopic" placeholder="dislike topic">  | 
+        <button onclick="add()">Add Student</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>like topic</th>
+                <th>dislike topic</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+</body>
+</html>
