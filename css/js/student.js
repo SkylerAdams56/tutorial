@@ -14,7 +14,7 @@ const add = () => {
     let newName = nameCtrl.value;
     let newlikeTopic = favCtrl.value;
     let newdislikeTopic = leastFavCtrl.value;
-
+``
     console.debug("newName", newName, "fav", newlikeTopic, "least", newdislikeTopic)
 
     let newStudent = {
